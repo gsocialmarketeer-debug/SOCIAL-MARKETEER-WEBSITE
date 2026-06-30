@@ -577,3 +577,120 @@ h3 {
     flex-direction: column;
   }
 }
+.brand img {
+width: 90px;
+height: 90px;
+}
+
+.brand strong {
+font-size: 28px;
+}
+
+.brand small {
+font-size: 18px;
+font-weight: 800;
+color: #9b6f22;
+}
+
+.large-label {
+font-size: 20px;
+font-weight: 900;
+letter-spacing: 0.04em;
+}
+
+.section-heading .eyebrow {
+font-size: 20px;
+}
+
+.contact-copy .eyebrow,
+.gallery-section .eyebrow,
+.services .eyebrow,
+.feature-band .eyebrow,
+.intro .eyebrow {
+font-size: 22px;
+font-weight: 900;
+}
+
+.whatsapp-float {
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 62px;
+height: 62px;
+background: #25D366;
+color: #ffffff;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+text-decoration: none;
+box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+z-index: 9999;
+transition: 0.3s ease;
+}
+
+.whatsapp-float:hover {
+transform: scale(1.1);
+}
+
+.areas-cover {
+text-align: center;
+}
+
+.areas-cover p {
+max-width: 900px;
+margin: 0 auto;
+font-size: 22px;
+line-height: 1.6;
+}
+
+.faq-grid {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 24px;
+}
+
+.faq-grid article {
+background: #ffffff;
+padding: 28px;
+border-radius: 18px;
+box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.faq-grid h3 {
+margin-bottom: 10px;
+font-size: 24px;
+}
+
+.faq-grid p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+.brand img {
+width: 75px;
+height: 75px;
+}
+
+.brand strong {
+font-size: 22px;
+}
+
+.brand small {
+font-size: 16px;
+}
+
+.faq-grid {
+grid-template-columns: 1fr;
+}
+
+.whatsapp-float {
+width: 56px;
+height: 56px;
+font-size: 28px;
+bottom: 16px;
+right: 16px;
+}
+}
