@@ -38,7 +38,7 @@ a {
 }
 
 .site-header {
-  position: sticky;
+  position: relative; 
   top: 0;
   z-index: 10;
   display: flex;
@@ -789,7 +789,7 @@ text-align: center;
 width: 82px;
 height: 82px;
 border-radius: 50%;
-object-fit: contain;
+object-fit: contain;FF
 }
 
 .brand strong {
