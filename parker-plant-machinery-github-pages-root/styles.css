@@ -37,8 +37,7 @@ a {
   color: inherit;
 }
 
-.site-header {
-  position: relative; 
+.site-header { 
   top: 0;
   z-index: 10;
   display: flex;
