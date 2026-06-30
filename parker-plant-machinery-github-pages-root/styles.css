@@ -807,6 +807,7 @@ color: #9b6f22;
 }
 
 .site-header {
+position: relative;
 display: flex;
 align-items: center;
 justify-content: space-between;
