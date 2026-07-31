@@ -885,32 +885,39 @@ h3 {
     font-size: 28px;
   }
 }
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.social-follow {
+  margin-top: 22px;
 }
 
-.social-links a {
+.social-follow p {
+  margin: 0 0 10px;
+  color: var(--gold-dark);
+  font-size: 0.92rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.social-buttons a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
-  padding: 10px 16px;
-  color: var(--ink);
-  background: var(--white);
-  border: 1px solid rgba(171, 125, 45, 0.34);
+  min-height: 44px;
+  padding: 11px 18px;
+  color: #202020;
+  background: #f4f1e9;
+  border: 1px solid #caa24f;
   border-radius: 8px;
-  box-shadow: 0 10px 28px rgba(23, 23, 23, 0.08);
   font-weight: 900;
   text-decoration: none;
 }
 
-.social-links a:hover {
-  color: var(--white);
-  background: var(--gold-dark);
-}
-
-.contact-socials {
-  margin-top: 18px;
+.social-buttons a:hover {
+  color: #ffffff;
+  background: #9a742e;
 }
