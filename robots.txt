@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.parkerplantandmachinery.co.uk/sitemap.xml
